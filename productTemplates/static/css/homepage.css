@@ -1,0 +1,27 @@
+h1 {
+  text-align: center;
+  color: #251B37;
+  font-family: Verdana, sans-serif;
+}
+
+a {
+  text-decoration: None;
+  color: #372948
+  font-family: Verdana, sans-serif;
+  font-size: 33px
+}
+
+body{
+  background-color: #FFECEF;
+}
+
+ul {
+  background-color: #FFCACA;
+}
+
+img {
+  border: 1px;
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px;
+}
