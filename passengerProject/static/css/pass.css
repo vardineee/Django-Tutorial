@@ -1,0 +1,22 @@
+h1 {
+  color: #404258;
+  text-align: center;
+}
+
+table, td, th {
+  border: 1px solid;
+  font-size:  18px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  color: #474E68;
+}
+
+td {
+  color: #6B728E;
+}
+body{
+  background: #F7F7F7;
+}
