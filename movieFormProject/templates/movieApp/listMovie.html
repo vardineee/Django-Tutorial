@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>All Movies</title>
+    <link rel="stylesheet" href="{%static  "css/movie.css"%}">
+  </head>
+  <body>
+    {%if movies %}
+    <h1>Movie List </h1>
+    <table>
+      <thead>
+        <th>Name</th>
+        <th>Release Date</th>
+        <th>Rating</th>
+      </thead>
+        {% for movie in movies %}
+        <tr>
+          <td>{{movie.name}}</td>
+          <td>{{movie.releaseDate}}</td>
+          <td>{{movie.rating}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    
+    {%else%}
+    <p>No movie is available</p>
+    {%endif%}
+
+
+  </body>
+</html>
