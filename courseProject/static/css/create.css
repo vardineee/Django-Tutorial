@@ -1,0 +1,29 @@
+h1{
+  color: #425F57;
+  text-align:  center;
+
+}
+
+body{
+  background-color: #C8DBBE;
+}
+
+.input{
+  color: #372948;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 41%
+
+
+
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link {
+  color: red;
+}
