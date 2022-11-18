@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Student Details</title>
+  </head>
+  <body>
+     <h1>Student</h1>
+     <ul>
+       <li>First Name: {{student.firstName}}</li>
+       <li>Last Name: {{student.lastName}}</li>
+       <li>Test Score: {{student.testScore}}</li>
+       <h3> <a href="/update/{{student.id}}">Update</a></h3>
+       <h3> <a href="/delete/{{student.id}}">Delete</a></h3>
+     </ul>
+  </body>
+</html>
